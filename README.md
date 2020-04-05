@@ -13,7 +13,7 @@ key is 𝑥, then for any node in its left subtree its key must be strictly less
 its right subtree its key must be strictly greater than 𝑥. In other words, smaller elements are to the
 left, and bigger elements are to the right. You need to check whether the given binary tree structure
 satisfies this condition. You are guaranteed that the input contains a valid binary tree. That is, it is a
-tree, and each node has at most two children.
+tree, and each node has at most two children. Note that testing the binary search tree condition for each node and every other node in its subtree will be too slow. A faster algorithm is required to meet the runtime limit for this assignment.
 <br/>
 <br/>
 Input Format: The first line contains the number of vertices 𝑛. The vertices of the tree are numbered
