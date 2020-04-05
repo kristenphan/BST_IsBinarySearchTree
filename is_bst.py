@@ -91,6 +91,10 @@ def inOrder(tree, result):
 # if yes, return 'CORRECT'
 # if no, return 'INCORRECT'
 # special case: an empty tree is a BST
+# The definition of the binary search tree is the following: 
+# for any node of the tree, if its
+# key is 𝑥, then for any node in its left subtree its key must be strictly less than 𝑥, and for any node in
+# its right subtree its key must be strictly greater than 𝑥.
 # input format:
 #### The first line contains the number of vertices 𝑛. The vertices of the tree are numbered from 0 to 𝑛 − 1. Vertex 0 is the root.
 #### The next 𝑛 lines contain information about vertices 0, 1, ..., 𝑛−1 in order. Each of these lines contains
